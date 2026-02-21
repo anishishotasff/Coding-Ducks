@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import { motion } from 'framer-motion';
 import Home from './pages/Home';
 import Dojo from './pages/Dojo';
 import Duels from './pages/Duels';

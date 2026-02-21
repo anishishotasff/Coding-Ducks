@@ -86,7 +86,7 @@ class UserStore {
     return { leveledUp, newLevel };
   }
 
-  solveChallenge(challengeId: number) {
+  solveChallenge(_challengeId: number) {
     this.stats.challengesSolved++;
     this.checkBadges();
     this.notify();
